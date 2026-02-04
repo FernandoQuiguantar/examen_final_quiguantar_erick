@@ -1,0 +1,11 @@
+services:
+  db:
+    image: postgres:15
+    container_name: postgres_db_examen
+    restart: always
+    environment:
+      POSTGRES_USER: user_p
+      POSTGRES_PASSWORD: password_p
+      POSTGRES_DB: tasks_db
+    ports:
+      - "5432:5432"

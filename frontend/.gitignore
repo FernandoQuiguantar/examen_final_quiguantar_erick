@@ -1,0 +1,9 @@
+# Bloquear node_modules en cualquier carpeta (incluyendo backend)
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Otros archivos molestos
+.env
+dist/
+.DS_Store
