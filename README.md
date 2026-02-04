@@ -36,14 +36,14 @@ Desde la raíz del proyecto, ejecuta el siguiente comando para levantar el conte
 docker-compose up -d
 
 ### 2. BACKEND
-cd backend
-npm install
-node app.js
+* cd backend
+* npm install
+* node app.js
 
 ### 3. FRONTEND
-cd frontend
-npm install
-npm run dev
+* cd frontend
+* npm install
+* npm run dev
 
    
 
